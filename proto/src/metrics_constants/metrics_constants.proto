@@ -7442,5 +7442,8 @@ message MetricsEvent {
     // CustomSettings constant
     CUSTOM_SETTINGS = 1999;
 
+    // Keli-UI Settings
+    KELI_SETTINGS = 4000;
+
   }
 }
