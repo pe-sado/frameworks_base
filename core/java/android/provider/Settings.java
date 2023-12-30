@@ -6003,6 +6003,12 @@ public final class Settings {
         public static final String HIGH_TOUCH_POLLING_RATE_ENABLE =
                 "high_touch_polling_rate_enable";
 
+	/**
+         * Current status of whether gestures are locked
+         * @hide
+         */
+        public static final String LOCK_GESTURE_STATUS = "lock_gesture_status";
+
         /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add

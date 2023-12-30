@@ -89,4 +89,8 @@
 
     <!-- Build properties from a GMS certified device -->
     <java-symbol type="array" name="config_certifiedBuildProperties" />
+
+    <!-- Lock gesture -->
+    <java-symbol type="string" name="gesture_locked_warning" />
+
 </resources>
