@@ -236,11 +236,6 @@ interface IStatusBarService
      */
     void startAssist(in Bundle args);
 
-    /**
-     * Toggles flashlight of the device
-     */
-    void toggleCameraFlash();
-
     /** Used to block or unblock usage of gestural navigation. */
     void setBlockedGesturalNavigation(boolean blocked);
 }

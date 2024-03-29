@@ -513,11 +513,6 @@ public class CommandQueue extends IStatusBar.Stub implements
          */
         default void immersiveModeChanged(int rootDisplayAreaId, boolean isImmersiveMode) {}
 
-        /**
-         * @see IStatusBar#toggleCameraFlash
-         */
-        default void toggleCameraFlash() {}
-
         default void setBlockedGesturalNavigation(boolean blocked) {}
     }
 
